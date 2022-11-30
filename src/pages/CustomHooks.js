@@ -35,6 +35,15 @@ const CustomHooks = () => {
           <li>
             <Link to="useNetwork">UseNetwork</Link>
           </li>
+          <li>
+            <Link to="useScroll">UseScroll</Link>
+          </li>
+          <li>
+            <Link to="useFullscreen">UseFullScreen</Link>
+          </li>
+          <li>
+            <Link to="useNotification">UseNotification</Link>
+          </li>
         </ul>
       </main>
     </div>

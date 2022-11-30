@@ -24,6 +24,9 @@ import UsePreventLeave from "./pages/customHooks/usePreventLeave";
 import UseBeforeLeave from "./pages/customHooks/useBeforeLeave";
 import UseFadeIn from "./pages/customHooks/useFadeIn";
 import UseNetwork from "./pages/customHooks/useNetwork";
+import UseScroll from "./pages/customHooks/useScroll";
+import UseFullscreen from "./pages/customHooks/useFullscreen";
+import UseNotification from "./pages/customHooks/useNotification";
 
 function App() {
   return (
@@ -48,6 +51,9 @@ function App() {
             <Route path="useBeforeLeave" element={<UseBeforeLeave />} />
             <Route path="useFadeIn" element={<UseFadeIn />} />
             <Route path="useNetwork" element={<UseNetwork />} />
+            <Route path="useScroll" element={<UseScroll />} />
+            <Route path="useFullscreen" element={<UseFullscreen />} />
+            <Route path="useNotification" element={<UseNotification />} />
           </Route>
         </Route>
       </Routes>
